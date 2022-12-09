@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Lab2_KazanovAlexandr/1.0.0": {
+        "runtime": {
+          "Lab2_KazanovAlexandr.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lab2_KazanovAlexandr/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
