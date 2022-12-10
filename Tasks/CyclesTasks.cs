@@ -18,7 +18,13 @@ namespace Lab2_KazanovAlexandr
             string stringTask = "1234-abc-1234-ABC-1a2b";
             StringTasks stringTasks = new StringTasks();
             //stringTasks.FirstTask(stringTask);
-            stringTasks.SecondTask(stringTask);
+            //stringTasks.SecondTask(stringTask);
+            //stringTasks.ThirdTask(stringTask);
+            //stringTasks.FourthTask(stringTask);
+            //stringTasks.FifthTask(stringTask);
+            //stringTasks.SixthTask(stringTask);
+            stringTasks.SeventhTask(stringTask);
+            
         }
 
         static void FirstTask()
