@@ -2,14 +2,34 @@
 
 namespace Lab2_KazanovAlexandr
 {
+    internal class Scanner
+    {
+        public static void FourthTask(int[] array)
+        {
+            Console.WriteLine("Please enter your scanner number!");
+            bool IsNumberInTheArray = false;
+            int scanner = int.Parse(Console.ReadLine());
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (scanner == array[i])
+                {
+                    IsNumberInTheArray = true;
+                    break;
+                }
+            }
+            if (IsNumberInTheArray) Console.WriteLine("Entered value is in the array.");
+            else Console.WriteLine("Entered value isn't in the array.");
+        }
+    }
     internal class CyclesTasks
     {
         static void Main(string[] args)
         {
+            var array = new int[10] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
             //FirstTask();
             //SecondTask();
             //ThirdTask();
-            //ForthTask();
+            //Scanner.FourthTask(array);
             //FifthTask();
             //SixthTask();
             //SeventhTask();
@@ -23,7 +43,7 @@ namespace Lab2_KazanovAlexandr
             //stringTasks.FourthTask(stringTask);
             //stringTasks.FifthTask(stringTask);
             //stringTasks.SixthTask(stringTask);
-            stringTasks.SeventhTask(stringTask);
+            //stringTasks.SeventhTask(stringTask);
             
         }
 
@@ -56,24 +76,6 @@ namespace Lab2_KazanovAlexandr
                 summ += i;
             }
             Console.WriteLine(summ);
-        }
-
-        static void FourthTask()
-        {
-            int[] array = new int[] { 1, 2, 3, 4, 5 };
-            Console.WriteLine("Please enter your scanner number!");
-            bool IsNumberInTheArray = false;
-            int scanner = int.Parse(Console.ReadLine());
-            for (int i = 0; i < array.Length; i++)
-            {
-                if (scanner == array[i])
-                {
-                    IsNumberInTheArray = true;
-                    break;
-                }
-            }
-            if (IsNumberInTheArray) Console.WriteLine("Entered value is in the array.");
-            else Console.WriteLine("Entered value isn't in the array.");
         }
 
         static void FifthTask()
