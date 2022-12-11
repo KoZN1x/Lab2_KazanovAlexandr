@@ -75,7 +75,7 @@ namespace Lab2_KazanovAlexandr
                     }
                 }
             }
-            Console.WriteLine(finalString.Substring(0, finalString.Length-1));
+            Console.WriteLine(finalString.Substring(0, finalString.Length - 1));
         }
 
         public void FourthTask(string taskName)

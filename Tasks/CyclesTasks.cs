@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Lab2_KazanovAlexandr.Tasks;
+using System;
 
 namespace Lab2_KazanovAlexandr
 {
@@ -44,7 +45,7 @@ namespace Lab2_KazanovAlexandr
             //stringTasks.FifthTask(stringTask);
             //stringTasks.SixthTask(stringTask);
             //stringTasks.SeventhTask(stringTask);
-            
+            TruthTable.HardTask();
         }
 
         static void FirstTask()
